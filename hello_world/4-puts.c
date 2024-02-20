@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main() {
+int main(void)
+{
     char str[] = "Programming is like building a multilingual puzzle";
-    for (int i = 0; str[i] != '\0'; i++) {
-        putchar(str[i]);
-    }
-    return 0;
+
+    // Using puts to print the string followed by a new line
+    puts(str);
+
+    return (0);
 }
