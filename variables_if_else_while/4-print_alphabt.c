@@ -9,14 +9,13 @@ int main(void)
 {
 const char *message = "abcdefghijklmnopqrstuvwxyz\n";
 const char *ptr = message;
-while (*ptr != 'q' && *ptr != 'e')
-{
-ptr++;
-}
 
 while (*ptr)
 {
+if (*ptr != 'q' && *ptr != 'e')
+{
 putchar(*ptr);
+}
 ptr++;
 }
 
