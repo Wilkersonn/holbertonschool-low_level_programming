@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-const char *message = "abcdefghijklmnopqrstuvwxyz\n";
+const char *message = "abcdefghijklmnopqrstuvwxyz";
 const char *message1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 
 while (*message)
