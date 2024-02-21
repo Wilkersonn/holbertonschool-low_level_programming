@@ -8,7 +8,7 @@
 int main(void)
 {
 const char *message = "abcdefghijklmnopqrstuvwxyz\n";
-const char *ptre = message;
+const char *ptr = message;
 while (*ptr != 'q' && *ptr != 'e')
 {
 ptr++;
@@ -19,7 +19,6 @@ while (*ptr)
 putchar(*ptr);
 ptr++;
 }
-
 
 return (0);
 }
