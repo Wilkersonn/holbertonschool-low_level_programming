@@ -7,14 +7,15 @@
 
 int main(void)
 {
+char hex_chars[] = "0123456789abcdef";
+
 int i;
-
-
-for (i = 0; i <= 255; i++)
+for (i = 0; i < 16; i++)
 {
-
-printf("%x\n", i);
+putchar(hex_chars[i]);
 }
+
+putchar('\n');
 
 return (0);
 }
