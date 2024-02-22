@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -11,7 +11,7 @@ const char *message = "_putchar\n";
 
 while (*message)
 {
-putchar(*message);
+_putchar(*message);
 message++;
 }
 
