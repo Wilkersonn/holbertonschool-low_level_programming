@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * Print alphabet i think
  *
- * Return: Always 0 (Success)
+ * Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
-const char *alphabetoui = "abcdefghijklmnopqrstuvwxyz\n";
+	char alphabet = 'a';
 
-while (*alphabetoui)
-{
-_putchar(*alphabetoui);
-alphabetoui++;
+	while (alphabet <= 'z')
+	{
+		_putchar(alphabet);
+		alphabet++;
+	}
+	_putchar('\n');
 }
-
-return (0);
-}
-
