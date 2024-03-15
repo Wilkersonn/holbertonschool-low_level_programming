@@ -1,26 +1,32 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
- * *create_array - Créer array du char
- * @size: Taille du tabl a crée
- * @c: Car. Pour Init
- * Return: return always 0
+ * create_array - creates an array of chars, and starts it with a specific char
+ * @size: size
+ * @c: char
+ * Return: NULL if size = 0 or pointer to the array
  */
+
 char *create_array(unsigned int size, char c)
+
 {
+	char *a;
 	unsigned int i;
-	char *array;
 
 	if (size == 0)
+	{
 		return (NULL);
-	array = malloc(sizeof(char) * (size + 1));
-	if (array == NULL)
-	return (NULL);
+	}
+	a = malloc(size);
+	if (a == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < size; i++)
-		array[i] = c;
-	array[size] = '\0';
-
-	return (array);
+	{
+		a[i] = c;
+	}
+	return (a);
 }
