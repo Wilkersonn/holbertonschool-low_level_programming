@@ -8,15 +8,15 @@
 
 int main(void)
 {
-    int c = 0;
+	int c = 0;
 
-    while (c <= 9)
-    {
-        putchar(c + '0');
-        c++;
-    }
+	while (c <= 9)
+	{
+		putchar(c + '0');
+		c++;
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return 0;
+	return (0);
 }
