@@ -1,27 +1,18 @@
 #include "main.h"
-#include <stdio.h>
-
-/**
- * main - This is the entry point of the code
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 /**
  * print_alphabet - Prints the alphabet in lowercase
+ *
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char letter;
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (i = 0; i < 26; i++)
 	{
-		_putchar(letter);
+		_putchar(alphabet[i]);
 	}
 	_putchar('\n');
 }
