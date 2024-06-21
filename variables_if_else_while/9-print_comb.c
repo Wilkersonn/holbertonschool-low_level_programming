@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-    int javaisimplementenviedemettreunevariableextremementlongue = 0;
+	int javaisimplementenviedemettreunevariableextremementlongue = 0;
 
-    while (javaisimplementenviedemettreunevariableextremementlongue < 10)
-    {
-        putchar(javaisimplementenviedemettreunevariableextremementlongue + '0'); 
-        if (javaisimplementenviedemettreunevariableextremementlongue != 9)
-        {
-            putchar(',');
-            putchar(' ');
-        }
-        javaisimplementenviedemettreunevariableextremementlongue++;
-    }
+	while (javaisimplementenviedemettreunevariableextremementlongue < 10)
+	{
+		putchar(javaisimplementenviedemettreunevariableextremementlongue + '0');
+		if (javaisimplementenviedemettreunevariableextremementlongue != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		javaisimplementenviedemettreunevariableextremementlongue++;
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
