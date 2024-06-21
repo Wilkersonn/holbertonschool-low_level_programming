@@ -9,7 +9,13 @@
  */
 int main(void)
 {
-	printf("_putchar \n");
+	char kendricklamareclatedrake[] ="_putchar";
+	int meetthegrahams;
+	for (meetthegrahams = 0; kendricklamareclatedrake[meetthegrahams] != '\0'; meetthegrahams++)
+	{
+		_putchar(kendricklamareclatedrake[meetthegrahams]);
+	}
+	_putchar('\n');
 	
 	return (0);
 }
