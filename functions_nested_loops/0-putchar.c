@@ -9,13 +9,14 @@
  */
 int main(void)
 {
-	char kendricklamareclatedrake[] ="_putchar";
-	int meetthegrahams;
-	for (meetthegrahams = 0; kendricklamareclatedrake[meetthegrahams] != '\0'; meetthegrahams++)
+	char text[] = "_putchar";
+	int counter;
+
+	for (counter = 0; text[counter] != '\0'; counter++)
 	{
-		_putchar(kendricklamareclatedrake[meetthegrahams]);
+		_putchar(text[counter]);
 	}
+
 	_putchar('\n');
-	
 	return (0);
 }
