@@ -14,12 +14,12 @@ void print_alphabet_x10(void)
 	while(e < 10)
 	{
 		for (i = 0; i < 26; i++)
-        
+		
 		{
 			_putchar(alphabet[i]);
 		}
 		_putchar('\n');
-        e++;
+		e++;
 	}
 
 }
