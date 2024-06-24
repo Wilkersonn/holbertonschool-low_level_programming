@@ -8,6 +8,7 @@
  * @c: the char being verified
  *
  * Return: 1 ou 0
+ *
  */
 int _isupper(int c)
 {
