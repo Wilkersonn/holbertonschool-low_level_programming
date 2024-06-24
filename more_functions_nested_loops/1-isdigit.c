@@ -3,7 +3,7 @@
 
 
 /**
- * _isupper - Verify if the char is lower or not
+ * _isdigit - Verify if the char is digit or not
  *
  * @c: the char being verified
  *
@@ -16,5 +16,4 @@ int _isdigit(int c)
 		return (1);
 	else
 		return (0);
-        
 }
