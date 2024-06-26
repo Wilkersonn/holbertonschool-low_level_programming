@@ -3,17 +3,18 @@
 #include <string.h>
 
 /**
- * _strlen - know how char have a var char. 
+ * _strlen - returns the length of a string
  *
- * @a: first int to be swap
+ * @s: the string to measure
  *
- * @b: second int to be swap
+ * Return: length of the string
  */
 
 int _strlen(char *s)
 {
 
 	size_t longueur = strlen(s);
-	return (int)longueur;
+
+	return ((int)longueur);
 
 }
