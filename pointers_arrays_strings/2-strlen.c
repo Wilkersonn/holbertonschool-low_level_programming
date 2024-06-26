@@ -12,9 +12,14 @@
 
 int _strlen(char *s)
 {
+	int longueur = 0;
 
-	size_t longueur = strlen(s);
+	while (*s != '\0')
+	{
+		longueur++;
+		s++;
+	}
 
-	return ((int)longueur);
+	return (longueur);
 
 }
