@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - Fonction permettant de print un str
- * @str: string print
+ * @s: string print
  * Return: rien
  */
 void print_rev(char *s)
@@ -24,9 +24,9 @@ void print_rev(char *s)
 
         while (count != 0)
         {
-            _putchar(*s);
             s--;
-            count--;  
+            count--;
+            _putchar(*s);
         }
         
 
