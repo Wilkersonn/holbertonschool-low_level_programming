@@ -9,17 +9,8 @@
  *
  * Return: length of the string
  */
-
 int _strlen(char *s)
 {
-	int longueur = 0;
-
-	while (*s != '\0')
-	{
-		longueur++;
-		s++;
-	}
-
-	return (longueur);
-
+    size_t longueur = strlen(s);
+    return ((int)longueur);
 }
