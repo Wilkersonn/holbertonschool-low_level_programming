@@ -11,7 +11,7 @@ This directory contains code examples that demonstrate **recursion**.
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/recursion-code-examples.git
+    git clone https://github.com/Wilkersonn/holbertonschool-low_level_programming/recursion
     ```
 
 2. **Navigate to the Directory**:
@@ -26,6 +26,9 @@ This directory contains code examples that demonstrate **recursion**.
 
 This project is for personal learning purposes.
 
-## 📧 Contact
+## 🎓 Made For
 
-For any questions, please contact me at [your-email@example.com](mailto:your-email@example.com).
+This code has been created for **`Holberton School`**.
+
+**`Holberton School`** is an open software engineering school that welcomes everyone with no prerequisites. It offers a unique, project-based curriculum designed to build practical software development skills through hands-on experience.
+
