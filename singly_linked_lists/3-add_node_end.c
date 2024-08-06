@@ -44,12 +44,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (new_node);
 	}
 
-	/* Traverse the list to find the last node */
 	temp = *head;
 	while (temp->next != NULL)
 		temp = temp->next;
 
-	/* Set the next of the last node to the new node */
 	temp->next = new_node;
 
 	return (new_node);
